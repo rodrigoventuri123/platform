@@ -1,7 +1,7 @@
-package com.plataform.client.specification;
+package com.platform.client.specification;
 
+import com.platform.client.domain.Client;
 import org.springframework.data.jpa.domain.Specification;
-import com.plataform.client.domain.Client;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;

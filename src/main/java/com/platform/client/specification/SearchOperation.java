@@ -1,4 +1,4 @@
-package com.plataform.client.specification;
+package com.platform.client.specification;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,9 +1,9 @@
-package com.plataform.client.service;
+package com.platform.client.service;
 
-import com.plataform.client.domain.Client;
-import com.plataform.client.dto.SearchDTO;
-import com.plataform.client.repository.ClientRepository;
-import com.plataform.client.specification.ClientSpecification;
+import com.platform.client.domain.Client;
+import com.platform.client.dto.SearchDTO;
+import com.platform.client.repository.ClientRepository;
+import com.platform.client.specification.ClientSpecification;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

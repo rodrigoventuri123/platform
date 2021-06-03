@@ -1,8 +1,8 @@
-package com.plataform.client.resource;
+package com.platform.client.resource;
 
-import com.plataform.client.domain.Client;
-import com.plataform.client.dto.SearchDTO;
-import com.plataform.client.service.ClientService;
+import com.platform.client.domain.Client;
+import com.platform.client.dto.SearchDTO;
+import com.platform.client.service.ClientService;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

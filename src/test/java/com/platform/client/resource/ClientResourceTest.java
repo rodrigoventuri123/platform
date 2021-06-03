@@ -1,15 +1,13 @@
-package com.plataform.client.resource;
+package com.platform.client.resource;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.plataform.client.domain.Client;
-import com.plataform.client.repository.ClientRepository;
-import com.plataform.client.service.ClientService;
-import org.junit.Assert;
+import com.platform.client.domain.Client;
+import com.platform.client.repository.ClientRepository;
+import com.platform.client.service.ClientService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -93,7 +91,6 @@ public class ClientResourceTest {
         mvc.perform( MockMvcRequestBuilders.delete(RESOURCE_URL + "/{id}", client.getId()) )
                 .andExpect(status().isAccepted());
     }
-
 
     @Test
     public void testFindAll() throws Exception {

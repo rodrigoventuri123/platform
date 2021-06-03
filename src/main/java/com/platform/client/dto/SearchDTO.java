@@ -1,4 +1,4 @@
-package com.plataform.client.dto;
+package com.platform.client.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

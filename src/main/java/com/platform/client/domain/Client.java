@@ -1,6 +1,5 @@
-package com.plataform.client.domain;
+package com.platform.client.domain;
 
-import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,6 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
 
 @Data
 @AllArgsConstructor
@@ -25,6 +25,7 @@ public class Client {
     @NotNull
     private String fullName;
 
+    @NotNull
     private Integer age;
 
 }
